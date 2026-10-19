@@ -1,0 +1,23 @@
+# Dependencies
+/node_modules
+/vendor
+
+# Environment & Secrets
+.env
+.env.backup
+.env.production
+.env.testing
+*.key
+
+# Laravel Storage & Framework Cache
+/storage/*.key
+/storage/app/*
+!/storage/app/.gitignore
+!/storage/app/public/
+/storage/framework/cache/*
+!/storage/framework/cache/.gitignore
+/storage/framework/sessions/*
+!/storage/framework/sessions/.gitignore
+/storage/framework/testing/*
+!/storage/framework/testing/.gitignore
+/storage
